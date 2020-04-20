@@ -11,6 +11,8 @@
 int buf[10000];
 int in = 0;
 
+#define USE_SPINLOCK
+
 #ifdef USE_SPINLOCK
 // Insert your code here. Hint: pthread_spinlock_t ...;
 #elif USE_MUTEX
